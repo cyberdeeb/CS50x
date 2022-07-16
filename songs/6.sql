@@ -1,0 +1,7 @@
+--write a SQL query that lists the names of songs that are by Post Malone.
+--Your query should output a table with a single column for the name of each song.
+--You should not make any assumptions about what Post Malone’s artist_id is.
+SELECT s.name
+FROM songs s
+JOIN artists a on a.id = s.artist_id
+WHERE a.name = "Post Malone";
