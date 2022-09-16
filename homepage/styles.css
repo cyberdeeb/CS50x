@@ -1,0 +1,309 @@
+#index {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+  background-color: #3b444b;
+}
+
+#resume {
+  font-family: "Merriweather", serif;
+  color: #40514e;
+  background-color: #3b444b;
+}
+
+#photo {
+  background-color: #fefae0;
+}
+
+#portfolio {
+  font-family: "Merriweather", serif;
+  color: #40514e;
+  background-color: #3b444b;
+}
+
+#screen {
+  max-width: 100%;
+  height: 20rem;
+  margin: 5rem 0rem;
+}
+
+#img {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 5.63rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.resume:hover {
+  color: #3b444b;
+}
+
+a {
+  color: #eaf6f6
+}
+
+p {
+  line-height: 2;
+  color: #f8f0e3;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: #848787;
+  border-width: 6px;
+  margin: 50px auto;
+}
+
+li,
+h4 {
+  color: #f8f0e3;
+}
+
+.photo-title,
+.port-title,
+.port-desc {
+  text-align: center;
+}
+
+.project-description {
+  margin-top: 5rem;
+}
+
+.rpg-section {
+  text-align: left;
+  width: 95%;
+}
+
+.rpg-preview {
+  float: right;
+  max-width: 100%;
+  height: 12rem;
+  margin-left: 1rem;
+}
+
+.projects {
+  margin-bottom: 15rem;
+}
+
+.pd {
+  color: #e76f51;
+  text-align: center;
+}
+
+.nav-link {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.intro {
+  width: 80%;
+  margin: auto;
+}
+
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px;
+}
+
+.prof_descrip {
+  font-weight: bolder;
+}
+
+.top {
+  background-color: #3b444b;
+  position: relative;
+  padding-top: 1rem;
+}
+
+.titles {
+  font-weight: bold;
+}
+
+.middle-container {
+  margin: 0x;
+}
+
+.bottom-container {
+  background-color: #343a40;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 18.75rem;
+  bottom: 18.75rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18.75rem;
+  top: 3.13rem;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  max-width: 100%;
+  height: 20rem;
+  margin-bottom: 2rem;
+}
+
+.computer-img {
+  border-radius: 50%;
+  height: 15%;
+  width: 15%;
+  float: left;
+  margin-left: 25px;
+  margin-right: 30px;
+  max-width: 100%;
+}
+
+.analytics-img {
+  border-radius: 50%;
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: -30px;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .analytics-img {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 20vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  img.linkedin,
+  img.github,
+  img.gmail {
+    width: 8vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .rpg-preview {
+    height: auto;
+    width: 40vw;
+  }
+}
+
+.rpg-section {
+  margin-top: 2rem;
+}
+
+.skill-row-programing {
+  text-align: left;
+  padding-left: 3rem;
+}
+
+.skill-row-analytics {
+  margin: 3rem;
+  text-align: left;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background-color: #66bfbf;
+  color: #484a4a;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.linkedin,
+.github,
+.gmail {
+  height: auto;
+  max-width: 100%;
+  width: 3%;
+  margin: 2rem;
+}
+
+.animate {
+  background-image: linear-gradient(-225deg,
+      #e63946 0%,
+      #f77f00 30%,
+      #fcbf49 68%,
+      #eae2b7 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.objective,
+.work,
+.education,
+.skills {
+  margin: 3rem 0rem;
+}
+
+.resume_download {
+  margin: 3rem 0rem;
+  display: flex;
+  justify-content: center;
+}

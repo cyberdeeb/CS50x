@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon (1).ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body id="portfolio">
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">🏠</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        <h1 class="port-title">Portfolio</h1>
+        <p class="port-desc"></p>
+    </div>
+    <div class="container-fluid projects">
+        <hr>
+        <h2>Projects</h2>
+        <div class="rpg-section">
+            <a href="photo.html">
+                <h4>Random Photo Generator</h4>
+            </a>
+            <img class="rpg-preview" src="images/rpg-preview.png">
+            <p> In this project I declare an array using JavaScript to store the images. I then declare a JavaScript
+                variable to store a
+                random value calculated using Math.floor(Math.random()*photo.length) method. It will generate a random
+                number between 0
+                and the length of the array that will be assigned to the images to display randomly. The above steps are
+                place in a user-defined
+                function (getRandomImage), which will call by clicking on a Generate Image. In HTML code, I utilized the
+                img tag and left src blank.
+                Once the random number is calculated and the associated image is pulled, I use setAttribute to place the
+                image name from the array
+                into the src attribute of the img tag.</p>
+        </div>
+    </div>
+    <div class="bottom-container container-fluid">
+        <footer>
+            <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/abraham-deeb-3895b395/">
+                <img class="img-fluid linkedin" src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a class="footer-link" target="_blank" href="https://github.com/cyberdeeb/">
+                <img class="img-fluid github" src="images/github.png" alt="Github">
+            </a>
+            <a href="mailto:abrahamdeeb@gmail.com" aria-pressed="true"><img class="img-fluid gmail"
+                    src="images/gmail.png" alt="Gmail"></a>
+            <p class="copyright">&copy; 2022 Abraham Deeb</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
